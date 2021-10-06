@@ -1,6 +1,10 @@
 /*
 \\\\\\\\\\\\\\\\\\  import express  \\\\\\\\\\\\\\\\\\\\\\
+
+
 //////////////////import cors/////////////////////////////
+
+
 ////////////////create the app variable//////////////////
 
 
@@ -8,20 +12,31 @@
 
 
 //////////////////  setup middleware   \\\\\\\\\\\\\\
- includes json
- includes urlencoded
- includes cors
+
+
 
 ////////////////// setup Routes////////////////////////
-/////////////////    set up controllers   \\\\\\\\\\\\\\\\\
+
 
 
 ///////////////// setup Redirects/////////////////////
 
 
 
+
+
+/////////////////    set up controllers   \\\\\\\\\\\\\\\\\
+
+
+
+
+
+
 ///////////////////error handle/////////////////
-using next
+
+
+
+
 
 
 /////////////////// Add the Port Listener  \\\\\\\\\\\\\\
