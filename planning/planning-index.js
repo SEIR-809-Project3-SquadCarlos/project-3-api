@@ -1,0 +1,44 @@
+/*
+\\\\\\\\\\\\\\\\\\  import express  \\\\\\\\\\\\\\\\\\\\\\
+
+
+//////////////////import cors/////////////////////////////
+
+
+////////////////create the app variable//////////////////
+
+
+/////////////////setup port to either the env variable or 3050 for development
+
+
+//////////////////  setup middleware   \\\\\\\\\\\\\\
+
+
+
+////////////////// setup Routes////////////////////////
+
+
+
+///////////////// setup Redirects/////////////////////
+
+
+
+
+
+/////////////////    set up controllers   \\\\\\\\\\\\\\\\\
+
+
+
+
+
+
+///////////////////error handle/////////////////
+
+
+
+
+
+
+/////////////////// Add the Port Listener  \\\\\\\\\\\\\\
+//set to port 3050
+*/
