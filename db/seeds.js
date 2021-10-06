@@ -1,19 +1,19 @@
 //IMPORTS
-const Attraction = require('../models/attraction');
-
+const mongoose = require('../db/connection');
 const attractionSeeds = require('./seedData.json');
+const Attraction = require('../models/attraction');
 
 
 //SEED
 Attraction.deleteMany({})
     .then(()=>{
-    Attraction.insertMany(attractionSeeds);
-    })
-.catch(console.error)
-.finally(()=>{
-    process.exit();
-});
-
+        Attraction.insertMany(attractionSeeds)
+            .then((attraction) => {
+                console.log(attraction);
+                process.exit();
+                });
+        })
+    .catch((err) => console.error(err));
 
 /*
 //IMPORTS
