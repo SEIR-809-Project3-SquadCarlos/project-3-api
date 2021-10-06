@@ -1,3 +1,20 @@
+//IMPORTS
+const Attraction = require('../models/attraction');
+
+const attractionSeeds = require('./seedData.json');
+
+
+//SEED
+Attraction.deleteMany({})
+    .then(()=>{
+    Attraction.insertMany(attractionSeeds);
+    })
+.catch(console.error)
+.finally(()=>{
+    process.exit();
+});
+
+
 /*
 //IMPORTS
 We're going to NOT IMPORT: mongoose from db/connection
