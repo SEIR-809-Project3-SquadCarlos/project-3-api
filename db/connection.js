@@ -1,9 +1,9 @@
 //IMPORT
+require('dotenv').config();
 const mongoose = require('mongoose');
-require('dotenv').config;
 //VARIABLES
 const mongoURI = process.env.DB_URL;
-const db = mongoose.connection();
+const db = mongoose.connection;
 
 //CONNECT
 mongoose.connect(mongoURI);
@@ -11,7 +11,7 @@ mongoose.connect(mongoURI);
 db.on('error', (err) =>
 	console.log(err.message + ' is MongoDB not running? 🤔')
 );
-db.on('connected', () => console.log('mongo 🔗 at:', mongoURI,'⚡️'));
+db.on('connected', () => console.log('mongo 🔗 at:', mongoURI, '⚡️'));
 db.on('disconnected', () => console.log('disconnected 💔'));
 db.on('open', () => console.log('mongo conneciton made 👍'));
 //EXPORT

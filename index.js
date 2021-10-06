@@ -11,10 +11,10 @@ app.set('port', process.env.PORT || 3050);
 //json
 app.use(express.json());
 //urlencoded
-app.use()
+app.use(express.urlencoded({extended: true}));
 
 // enable cors
-app.use(cors())
+app.use(cors());
 
 //ROUTES
 const attractionsController = require('./controllers/attractions');
@@ -55,4 +55,3 @@ setup port to either the env variable or 3050 for development
 
 /////////////////// Add the Port Listener  \\\\\\\\\\\\\\
 //set to port 3050
-

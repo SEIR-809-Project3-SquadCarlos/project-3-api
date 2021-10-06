@@ -30,7 +30,7 @@ router.post('/', async (req, res, next) => {
 	}
 });
 
-router.put('/:id', (req, res, next) => {
+router.put('/:id', async (req, res, next) => {
 	try {
 		const update = await Attraction.findByIdAndUpdate(req.params.id, req.body, {
 			new: true,
