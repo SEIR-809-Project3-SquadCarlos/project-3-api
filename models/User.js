@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 // const ReviewSchema = require('./review.js')
 
 const UserSchema = new Schema({
-	username: { type: String, required: true, unique: true },
+	username: { type: String, required: true },
 	password: { type: String, required: true },
 	homeTown: String,
 	// reviews: [Review]
