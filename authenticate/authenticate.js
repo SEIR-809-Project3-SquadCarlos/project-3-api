@@ -36,7 +36,7 @@ passport.initialize();
 //we set session to false as we are using an api  that has authentification
 const requiredToken = passport.authenticate('jwt', { session :false});
 //we'll create a user token by first making sure we have the right credentials, then returning the token that will be required.
-const createUserToken=(req,res)=>{
+const CreateUserToken=(req,res)=>{
             //if there's no matching user, or the login didn't suplly a pw, OR our bcrypt says the pws don't match, throw an eror.
         if (!user || !req.body.password ||!bcrypt.compareSync(req.body.password,user.password )) {
             const error = new Error('The username or pssword provided are incorrect!!')
@@ -47,4 +47,4 @@ const createUserToken=(req,res)=>{
      return jwt.sign({id:user._id,secret})
 }
 //we'll export our authentication createUserToken, and our requiredToken!
-module.exports = { requiredToken, CreateUSerToken };
+module.exports = { requiredToken, CreateUserToken };

@@ -1,14 +1,15 @@
 const mongoose = require('../db/connection');
-const Schema = mongoose.Schema();
-const Attraction = require('./attraction');
+const Schema = mongoose.Schema;
+// const Attraction = require('./attraction');
 // const ReviewSchema = require('./review.js')
 
 const UserSchema = new Schema({
-	username: { type: String, required: true },
+	username: { type: String, required: true, unique: true },
 	password: { type: String, required: true },
 	homeTown: String,
 	// reviews: [Review]
-	savedAttractions: [Attraction],
+    //saved Attractions is an array of Attractions. 
+	savedAttractions: Array,
 	// friends: [User],
 });
 

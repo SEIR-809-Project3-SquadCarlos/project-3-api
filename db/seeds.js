@@ -2,7 +2,7 @@
 const mongoose = require('../db/connection');
 const attractionSeeds = require('./attractionSeeds.json');
 const userSeeds = require('./userSeeds.json');
-
+const User = require('../models/user');
 const Attraction = require('../models/attraction');
 
 //SEED
