@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 
 //SETUP
-app.set('port', process.env.PORT || 3060);
+app.set('port', process.env.PORT || 3050);
 
 //MIDDLEWARE
 
