@@ -1,0 +1,44 @@
+
+[
+    {
+        "username": "Admin1",
+        "password": "project3", 
+        "homeTown": "Atlanta", 
+        "savedAttractions": [
+            {
+                "name": "Gary's Potion Shop",
+                "genre": "Illogical", 
+                "address": "581 Sabreena Circle,GA", 
+                "url": "https://github.com/williamsg12",
+                "description": "Skooma"
+            },
+            {
+                "name": "Eegii's dumpling",
+                "genre": "Cafe", 
+                "address": " 123  fairfield, IA", 
+                "url": "https://www.eegiidumlping.com",
+                "description": "Delish"
+            }
+    ]},
+    {
+        "username": "Admin1",
+        "password": "project3", 
+        "homeTown": "Atlanta", 
+        "savedAttractions": [
+            {
+                "name": "ben's pizza",
+                "genre": "dining", 
+                "address": "121 Paulson St, St. Paul, MinnePaulson", 
+                "url": "https://www.benspizza.com",
+                "description": "ben's pizza is really good. You should try it."
+            },
+            {
+                "name": "Syeda's Cruise Cafe",
+                "genre": "Cruise Cafe", 
+                "address": "Lake Hopatcong, NJ", 
+                "url": "https://www.lhcruises.com/",
+                "description": "Come and enjoy sightseeing cruises!"
+            }]
+    }
+
+]

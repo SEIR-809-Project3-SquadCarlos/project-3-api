@@ -9,11 +9,13 @@ so, we're going to make a new Schema called Attraction
         the attractions should have:
                 name: String
                 genre: String
-                address: String
+                address: String, required
                 website: URL
                 description: String
                  reviews(stretch): [String] 
                  ratings(stretch): [Number]
+                 city(stretch): String, required (create city choices on client side)
+                 tags(stretch): an array that holds Strings (set up tag choices on client side)
 
 
 
