@@ -1,17 +1,17 @@
 //IMPORTS
 const express = require('express');
-const app =express();
+const app = express();
 const cors = require('cors');
 
 //SETUP
-app.set('port', process.env.PORT || 3060);
+app.set('port', process.env.PORT || 3050);
 
 //MIDDLEWARE
 
 //json
 app.use(express.json());
 //urlencoded
-app.use(express.urlencoded({extended: true}));
+app.use(express.urlencoded({ extended: true }));
 
 // enable cors
 app.use(cors());
@@ -25,7 +25,7 @@ app.get('/', (req, res) => res.redirect('/attractions'));
 
 //LISTEN
 app.listen(app.get('port'), () => {
-    console.log(`✅ PORT ${app.get('port')}!🌟`);
+	console.log(`✅ PORT ${app.get('port')}!🌟`);
 });
 /*
  import express
@@ -51,7 +51,6 @@ setup port to either the env variable or 3050 for development
 
 ///////////////////error handle/////////////////
 // using next
-
 
 /////////////////// Add the Port Listener  \\\\\\\\\\\\\\
 //set to port 3050
