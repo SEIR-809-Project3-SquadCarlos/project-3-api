@@ -3,32 +3,32 @@
 
 [
     {
-        "name": "ben's pizza",
+        "name": "Griffith Observatory",
         "genre": "dining", 
-        "address": "121 Paulson St, St. Paul, MinnePaulson", 
-        "url": "https://www.benspizza.com",
-        "description": "ben's pizza is really good. You should try it."
+        "address": "Griffith Observatory, 2800 E Observatory Rd, Los Angeles, CA 90027",
+        "url": "https://griffithobservatory.org/",
+        "description": " From Google - Griffith Observatory is a facility in Los Angeles, California, sitting on the south-facing slope of Mount Hollywood in Los Angeles' Griffith Park. It commands a view of the Los Angeles Basin, including Downtown Los Angeles to the southeast, Hollywood to the south, and the Pacific Ocean to the southwest. "
     },
     {
-        "name": "Syeda's Cruise Cafe",
-        "genre": "Cruise Cafe", 
-        "address": "Lake Hopatcong, NJ", 
-        "url": "https://www.lhcruises.com/",
-        "description": "Come and enjoy sightseeing cruises!"
+        "name": "Disneyland Park",
+        "genre": "Amusement Park", 
+        "address": "Disneyland Dr, Anaheim, CA 92802", 
+        "url": "https://disneyland.disney.go.com/",
+        "description": "The Disneyland Resort, commonly known as Disneyland, is an entertainment resort in Anaheim, California. It is owned and operated by The Walt Disney Company through its Parks, Experiences and Products division and is home to two theme parks (Disneyland Park and Disney California Adventure), three hotels, and a shopping, dining, and entertainment district known as Downtown Disney."
     },
     {
-        "name": "Gary's Potion Shop",
-        "genre": "Illogical", 
-        "address": "581 Sabreena Circle,GA", 
-        "url": "https://github.com/williamsg12",
-        "description": "Skooma"
+        "name": "The Getty Center",
+        "genre": "Art", 
+        "address": "1200 Getty Center Drive,Los Angeles,CA 90049,USA", 
+        "url": "http://www.getty.edu/visit/center/",
+        "description": "Spectacular museum boasts a most impressive collection by such luminaries as Van Gogh, Monet, and Cezanne, along with the architectural triumph of its six buildings and gardens."
         
     },
     {
-        "name": "Eegii's dumpling",
-        "genre": "Cafe", 
-        "address": " 123  fairfield, IA", 
-        "url": "https://www.eegiidumlping.com",
-        "description": "Delish"
+        "name": "Hollywood walk of fame",
+        "genre": "Star-studded Holllywood sidewalk", 
+        "address": "Hollywood Boulevard, Vine St, Los Angeles, CA 90028", 
+        "url": "https://walkoffame.com/",
+        "description": "Spectacular Walk that honors Hollywood's brightest stars."
     }
 ]
