@@ -5,9 +5,10 @@ const attractionSchema = new Schema (
     {
         name: {type:String, required: true}, 
         genre: String, 
+        city:{type:String,require:true},
         address: {type:String, required: true}, 
         url: String,
-        description: String
+        description: String,
         // reviews(stretch): [Schema] 
         // ratings(stretch): [Number] 
 
