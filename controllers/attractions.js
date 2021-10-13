@@ -2,7 +2,7 @@ const express = require('express');
 const Attraction = require('../models/attraction');
 const router = express.Router();
 
-//////////////////// Create the http methods \\\\\\\\\\\\\\\\\\\\\
+
 router.get('/', async (req, res, next) => {
 	try {
 		const attractions = await Attraction.find(req.params);
@@ -49,22 +49,4 @@ router.delete('/:id', async (req, res, next) => {
 		next(err);
 	}
 });
-
-/*
-///////////////////     require express   \\\\\\\\\\\\\\\\\\\\
--create Express Router 
--require the arraction model
-
-
-//////////////////// Show routes:///////////////////////////
-
-
-///////////////////     Create   \\\\\\\\\\\\\\\\\\\\\\
-
-///////////////////     Update  \\\\\\\\\\\\\\\\\\\\\\\\\\
-
-///////////////////     Delete  \\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-////////////////////     export module        \\\\\\\\\\\\\\\\\\\\\
-*/
 module.exports = router;
