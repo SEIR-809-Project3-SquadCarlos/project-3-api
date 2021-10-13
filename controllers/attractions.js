@@ -30,7 +30,7 @@ router.post('/', async (req, res, next) => {
 	}
 });
 
-router.put('/:id', async (req, res, next) => {
+router.patch('/:id', async (req, res, next) => {
 	try {
 		const update = await Attraction.findByIdAndUpdate(req.params.id, req.body, {
 			new: true,
@@ -50,7 +50,6 @@ router.delete('/:id', async (req, res, next) => {
 	}
 });
 
-
 /*
 ///////////////////     require express   \\\\\\\\\\\\\\\\\\\\
 -create Express Router 
@@ -68,4 +67,4 @@ router.delete('/:id', async (req, res, next) => {
 
 ////////////////////     export module        \\\\\\\\\\\\\\\\\\\\\
 */
-module.exports =router
+module.exports = router;
