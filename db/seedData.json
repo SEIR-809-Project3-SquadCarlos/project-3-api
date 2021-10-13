@@ -34,5 +34,39 @@
         "address": "Hollywood Boulevard, Vine St, Los Angeles, CA 90028", 
         "url": "https://walkoffame.com/",
         "description": "Spectacular Walk that honors Hollywood's brightest stars."
+    },
+    {
+        "name": "Guggenheim Museum",
+        "genre": "Art", 
+        "city":"New York City",
+        "address": "1071 Fifth Avenue, New York City", 
+        "url": "https://walkoffame.com/",
+        "description": "The  Guggenheim boasts art from the Impressionist, Post-Impressionist, early Modern, and contemporary periods!  It is designed as one long, continuous spiral along the outer edges of the building to end just under the ceiling skylight, displaying art all along the way."
+    },
+    {
+			"name": "The Metropolitan Museum of Art",
+			"genre": "Art",
+			"city": "New York City",
+			"address": "Hollywood Boulevard, Vine St, Los Angeles, CA 90028",
+			"url": "https://www.metmuseum.org/",
+			"description": "The Metropolitan Museum of Art has everything from medieval armor, to paintings and sculptures from around the globe, to photography. They even have old musical instruments! The institution was founded in 1870 and is based in New York, New York. - from Wikipedia"
+		},
+    {
+        "name": "Los Angeles-1-Hour Private Helicopter Tour",
+        "genre": "Helicopter Tour", 
+        "city":"Los Angeles",
+        "address": "16425 Hart St, Van Nuys, CA 91406", 
+        "url": "https://www.getyourguide.com/los-angeles-l179/los-angeles-1-hour-sightseeing-helicopter-tour-t366180/?partner=true",
+        "description": "This is LA's only 65-minute helicopter tour.Enjoy a once-in-a-lifetime flight above Los Angeles."
+    },
+    {
+        "name": "Third Street Promenade",
+        "genre": "Shopping", 
+        "city":"Los Angeles",
+        "address": "16425 Hart St, Van Nuys, CA 91406", 
+        "url": "https://www.downtownsm.com/",
+        "description": "The Third Street Promenade, which stretches from Broadway (by Santa Monica Place) to Wilshire Boulevard, is a popular shopping destination that has an eclectic vibe similar to its Santa Monica locale. This open-air shopping mall is filled with major chain stores like Urban Outfitters and H&M, as well as more unique boutiques like Kenneth Karmiole, Bookseller Inc., a rare, by-appointment bookshop, and the toys-focused Puzzle Zoo. You'll also find that outdoor dining options – many of which use local ingredients – are plentiful. And if you're in the mood to cook your own meal, you can find fresh produce at the farmers market every Wednesday and Saturday, from 8 a.m. to 1 p.m."
     }
+    
+    
 ]
